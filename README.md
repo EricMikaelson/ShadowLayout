@@ -4,8 +4,8 @@
 支持阴影形状：圆形、方形、带圆角方形
 支持阴影方向：上、下、左、右，除开上／下／左／右 的其它三边有阴影等等
 <br>
-![image](https://raw.githubusercontent.com/EricMikaelson/readme_images/master/Screenshot_20180712-220054.jpg)
+<div align=center><img width="360" height="720" src="https://raw.githubusercontent.com/EricMikaelson/readme_images/master/Screenshot_20180712-220054.jpg"/></div>
 <br>
-![image](https://raw.githubusercontent.com/EricMikaelson/readme_images/master/Screenshot_20180712-220115.jpg)
+<div align=center><img width="360" height="720" src="https://raw.githubusercontent.com/EricMikaelson/readme_images/master/Screenshot_20180712-220115.jpg"/></div>
 <br>
-![image](https://raw.githubusercontent.com/EricMikaelson/readme_images/master/Screenshot_20180712-220125.jpg)
+<div align=center><img width="360" height="720" src="https://raw.githubusercontent.com/EricMikaelson/readme_images/master/Screenshot_20180712-220125.jpg"/></div>
