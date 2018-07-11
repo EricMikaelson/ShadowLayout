@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "all"
+            app:shadow_shape = "oval">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "top">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "bottom">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "except_top">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "left">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "right">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "except_bottom">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "except_left">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+
+
+        <com.shadowlayoutlibrary.ShadowLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadow_bg_color = "@color/white"
+            app:shadow_color = "@android:color/holo_red_dark"
+            app:shadow_radius = "10dp"
+            app:shadow_range = "10dp"
+            app:shadow_gravity = "except_right">
+
+            <round_imageview.RoundedImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_oval="false"
+                app:riv_corner_radius="10dp"
+                android:src="@drawable/bg_hats"/>
+
+        </com.shadowlayoutlibrary.ShadowLayout>
+    </LinearLayout>
+</ScrollView>
